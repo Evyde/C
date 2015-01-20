@@ -1,0 +1,6 @@
+hex2bin v1.0.12, Copyright (C) 2012 Jacques Pelletier & contributors
+
+Lowest address  = 00000000
+Highest address = 00000043
+Pad Byte        = FF
+8-bit Checksum = E7
