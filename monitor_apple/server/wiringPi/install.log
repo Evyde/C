@@ -1,0 +1,138 @@
+wiringPi Build script
+=====================
+
+
+WiringPi Library
+[UnInstall]
+make: Nothing to be done for 'all'.
+[Install Headers]
+[Install Dynamic Lib]
+
+WiringPi Devices Library
+[UnInstall]
+make: Nothing to be done for 'all'.
+[Install Headers]
+[Install Dynamic Lib]
+
+GPIO Utility
+make: Nothing to be done for 'all'.
+[Install]
+
+All Done.
+
+NOTE: To compile programs with wiringPi, you need to add:
+    -lwiringPi
+  to your compile line(s) To use the Gertboard, MaxDetect, etc.
+  code (the devLib), you need to also add:
+    -lwiringPiDev
+  to your compile line(s).
+
+wiringPi Build script
+=====================
+
+
+WiringPi Library
+[UnInstall]
+[Compile] wiringPi.c
+[Compile] piThread.c
+[Compile] softPwm.c
+[Compile] softTone.c
+[Compile] mcp23017.c
+[Compile] mcp23s08.c
+[Compile] mcp23s17.c
+[Compile] sr595.c
+[Compile] pcf8574.c
+[Compile] mcp3002.c
+[Compile] mcp3004.c
+[Compile] mcp4802.c
+[Compile] mcp3422.c
+[Compile] max5322.c
+[Compile] sn3218.c
+[Compile] wpiExtensions.c
+[Link (Dynamic)]
+[Install Headers]
+[Install Dynamic Lib]
+
+WiringPi Devices Library
+[UnInstall]
+[Compile] maxdetect.c
+[Compile] piFace.c
+[Compile] lcd.c
+[Compile] lcd128x64.c
+[Link (Dynamic)]
+[Install Headers]
+[Install Dynamic Lib]
+
+GPIO Utility
+[Compile] readall.c
+[Compile] gpio.c
+[Link]
+[Install]
+
+All Done.
+
+NOTE: To compile programs with wiringPi, you need to add:
+    -lwiringPi
+  to your compile line(s) To use the Gertboard, MaxDetect, etc.
+  code (the devLib), you need to also add:
+    -lwiringPiDev
+  to your compile line(s).
+
+wiringPi Build script
+=====================
+
+
+WiringPi Library
+[UnInstall]
+make: Nothing to be done for 'all'.
+[Install Headers]
+[Install Dynamic Lib]
+
+WiringPi Devices Library
+[UnInstall]
+make: Nothing to be done for 'all'.
+[Install Headers]
+[Install Dynamic Lib]
+
+GPIO Utility
+make: Nothing to be done for 'all'.
+[Install]
+
+All Done.
+
+NOTE: To compile programs with wiringPi, you need to add:
+    -lwiringPi
+  to your compile line(s) To use the Gertboard, MaxDetect, etc.
+  code (the devLib), you need to also add:
+    -lwiringPiDev
+  to your compile line(s).
+
+wiringPi Build script
+=====================
+
+
+WiringPi Library
+[UnInstall]
+make: Nothing to be done for 'all'.
+[Install Headers]
+[Install Dynamic Lib]
+
+WiringPi Devices Library
+[UnInstall]
+make: Nothing to be done for 'all'.
+[Install Headers]
+[Install Dynamic Lib]
+
+GPIO Utility
+make: Nothing to be done for 'all'.
+[Install]
+
+All Done.
+
+NOTE: To compile programs with wiringPi, you need to add:
+    -lwiringPi
+  to your compile line(s) To use the Gertboard, MaxDetect, etc.
+  code (the devLib), you need to also add:
+    -lwiringPiDev
+  to your compile line(s).
+
