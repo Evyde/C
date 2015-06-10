@@ -12,8 +12,8 @@
 #define SERVERIP "" //改成smtp服务器的地址，可以ping一下域名获得IP
 #define PASSWD "" //邮箱密码
 #define TO ""  //给谁发送
-#define TITLE "" //题目
-#define BODY "Hello World!" //正文
+#define TITLE "这" //题目
+#define BODY "" //正文
 
 int main(int argc,char *argv[])
         {
@@ -21,7 +21,7 @@ int main(int argc,char *argv[])
 				time_t timep;
 				FILE *idFilePointer;
 				char logString[100],idString[200],mailString[400];
-				system("idevice_id -l >	/id.log");
+				system("idevice_id -l > /id.log");
 				idFilePointer=fopen("/id.log","at+");
 				if(idFilePointer==NULL) {
 		printf("Can't open file.");
